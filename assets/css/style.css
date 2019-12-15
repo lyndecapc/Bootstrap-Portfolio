@@ -72,15 +72,7 @@ p {
     height: 140px;
 }
 
-.btn {
-    position: absolute;
-    top: 88px;
-    left: 0;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding-left: 30px;
-    padding-right: 40px;
-}
+
 
 #dogtext:hover {
     background: #777777;
