@@ -31,6 +31,7 @@ h3 {
     background: #ffffff;
     width: 960px;
     margin-top: 75px;
+    margin-bottom: 75px;
     padding: 20px;
     border-style: solid;
     border-color: #dddddd;
@@ -54,14 +55,14 @@ p {
     font-size: 19px;
 }
 
-#submit {
+.btn {
     background: #4aaaa5;
     color: #ffffff;
-    padding: 5px 10px 5px 10px;
 }
 
-#submit:hover {
-    background: #777777;;
+.btn:hover {
+    background: #777777;
+    color: #ffffff;
 }
 
 
@@ -71,50 +72,25 @@ p {
     height: 140px;
 }
 
-#dogcont {
-    position: relative;
-}
-
-#dogtext {
+.btn {
     position: absolute;
     top: 88px;
     left: 0;
     background-color: #4aaaa5;
     color: #ffffff;
-    text-align: center;
-    padding-left: 34px;
-    padding-right: 33px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
 #dogtext:hover {
     background: #777777;
 }
 
-
 #vegas {
-    position: absolute;
-    top: 0px;
-    left: 16%;
-    border-radius: 10px;
     width: 140px;
     height: 140px;
+    border-radius: 10px;
     transform: rotate(90deg);
-    
-}
-
-#vegastext {
-    position: absolute;
-    top: 88px;
-    left: 16%;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding-left: 46px;
-    padding-right: 50px;
-}  
-
-#vegastext:hover {
-    background: #777777;;
 }
 
 #oly {
@@ -124,67 +100,17 @@ p {
     transform: rotate(90deg);
 }
 
-#olytext {
-    position: absolute;
-    top: 232px;
-    left: 0;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding-left: 26px;
-    padding-right: 27px;
-}
-
-#olytext:hover {
-    background: #777777;;
-}
-  
 #jrt {
-    position: absolute;
-    left: 16%;
-    top: 144px;
     border-radius: 10px;
     width: 140px;
     height: 140px;
 }
 
-#JRTtext {
-    position: absolute;
-    top: 232px;
-    left: 16%;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding-left: 26px;
-    padding-right: 25px;
-}
-
-#JRTtext:hover {
-    background: #777777;
-}
-
 #linac {
-    position: relative;
-    left: 0;
     border-radius: 10px;
     width: 140px;
     height: 140px;
     transform: rotate(90deg);
-}
-
-#linactext {
-    position: absolute;
-    top: 376px;
-    left: 0;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding-left: 42px;
-    padding-right: 43px;
-}
-
-#linactext:hover {
-    background: #777777;
 }
 
   
