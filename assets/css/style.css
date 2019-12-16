@@ -65,24 +65,54 @@ p {
     color: #ffffff;
 }
 
+.dogcontainer {
+    position: absolute;
+
+  }
+  
+.dogcontainer img {
+    width: 100%;
+    height: auto;
+
+  }
 
 #dog {
     border-radius: 10px;
     width: 140px;
     height: 140px;
+    padding: 5;
 }
 
+.button {
+    position: absolute;
+    top: 75%;
+    left: 1.7%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 34px;
+}
 
-
-#dogtext:hover {
+.button:hover {
     background: #777777;
 }
-
 #vegas {
     width: 140px;
     height: 140px;
     border-radius: 10px;
     transform: rotate(90deg);
+}
+
+.vegaspic {
+    position: absolute;
+    top: 75%;
+    left: 18%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+   padding-left: 20px;
+   padding-right: 45px;
 }
 
 #oly {
