@@ -18,9 +18,6 @@ h1 {
     font-size: xx-large;
 }
 
-.name {    
-}
-
 h3 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,6 +25,7 @@ h3 {
 
 
 .container {
+    position: relative;
     background: #ffffff;
     width: 960px;
     margin-top: 75px;
@@ -65,67 +63,63 @@ p {
     color: #ffffff;
 }
 
-.dogcontainer {
-    position: absolute;
 
-  }
-  
-.dogcontainer img {
-    width: 100%;
-    height: auto;
-
-  }
-
-#dog {
+.dog {
     border-radius: 10px;
     width: 140px;
     height: 140px;
-    padding: 5;
+    
 }
 
 .button {
     position: absolute;
     top: 75%;
-    left: 1.7%;
+    left: 1.6%;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 34px;
+    padding-left: 35px;
+    padding-right: 32px;
 }
 
 .button:hover {
     background: #777777;
 }
-#vegas {
-    width: 140px;
-    height: 140px;
+
+.vegas {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     transform: rotate(90deg);
 }
 
 .vegaspic {
     position: absolute;
+    width: 14.8%;
     top: 75%;
-    left: 18%;
+    left: 16.9%;
     background-color: #4aaaa5;
-    color: #ffffff;
     text-align: center;
-   padding-left: 20px;
-   padding-right: 45px;
 }
 
-#oly {
-    border-radius: 10px;
-    width: 140px;
-    height: 140px;
-    transform: rotate(90deg);
+
+#olytext {
+    position: absolute;
+    top: 75%;
+    left: 1.6%;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 0 28px 0 26px; 
 }
 
-#jrt {
-    border-radius: 10px;
-    width: 140px;
-    height: 140px;
+
+#JRTtext {
+    position: absolute;
+    width: 14.8%;
+    top: 75%;
+    left: 16.9%;
+    background-color: #4aaaa5;
+    text-align: center;
 }
 
 #linac {
@@ -133,6 +127,15 @@ p {
     width: 140px;
     height: 140px;
     transform: rotate(90deg);
+}
+
+#linactext {
+    position: absolute;
+    top: 75%;
+    left: 1.6%;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 0 44px 0 41px;
 }
 
   
