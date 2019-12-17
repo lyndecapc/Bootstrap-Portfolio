@@ -58,23 +58,19 @@ p {
     color: #ffffff;
 }
 
-
 .dog {
     border-radius: 10px;
     width: 100%;
     height: auto;
     padding: 5px;
 }
-/*
-.button {
+
+.patttext {
     position: absolute;
-    top: 75%;
-    left: 1.6%;
-    text-align: center;
-    padding-left: 35px;
-    padding-right: 32px;
+    top: 100px;
+    left: 20px;
+    padding: 0 29px 0 26px;
 }
-*/
 
 .vegas {
     width: 100%;
@@ -83,27 +79,29 @@ p {
     transform: rotate(90deg);
     padding: 5px;
 }
-/*
+
 .vegastext {
     position: absolute;
-    top: 75%;
-    left: 16.9%;
+    top: 100px;
+    left: 20px;
+    padding: 0 43px 0 41px;
 }
 
 
-#olytext {
+.olytext {
     position: absolute;
-    top: 75%;
-    left: 1.6%; 
+    top: 100px;
+    left: 20px; 
+    padding: 0 20px 0 21px;
 }
 
-#JRTtext {
-    position: fixed;
-    top: 53%;
-    left: 29%;
-
+.JRTtext {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding: 0 18px 0 21px; 
 }
-*/
+
 .linac {
     border-radius: 10px;
     width: 100%;
@@ -111,17 +109,14 @@ p {
     transform: rotate(90deg);
     padding: 5px;
 }
-/*
+
 .linactext {
     position: absolute;
-    top: 75%;
-    left: 1.6%;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding: 0 44px 0 41px;
+    top: 100px;
+    left: 20px;
+    padding: 0 35px 0 38px;
 }
 
- */ 
 footer {
     background: #666666;
     padding: 30px;
@@ -147,6 +142,10 @@ footer {
     .container {
       width: 100%;
     }
+
+   
+
+
   
 
 
