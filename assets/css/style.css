@@ -42,11 +42,6 @@ h3 {
     padding: 5px;   
 }
 
-.responsive {
-    width: 100%;
-    height: auto;
-}
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -66,70 +61,58 @@ p {
 
 .dog {
     border-radius: 10px;
-    width: 140px;
-    height: 140px;
-    
+    width: 100%;
+    height: auto;
+    padding: 5px;
 }
-
+/*
 .button {
     position: absolute;
     top: 75%;
     left: 1.6%;
-    background-color: #4aaaa5;
-    color: #ffffff;
     text-align: center;
     padding-left: 35px;
     padding-right: 32px;
 }
-
-.button:hover {
-    background: #777777;
-}
+*/
 
 .vegas {
     width: 100%;
     height: auto;
     border-radius: 10px;
     transform: rotate(90deg);
+    padding: 5px;
 }
-
-.vegaspic {
+/*
+.vegastext {
     position: absolute;
-    width: 14.8%;
     top: 75%;
     left: 16.9%;
-    background-color: #4aaaa5;
-    text-align: center;
 }
 
 
 #olytext {
     position: absolute;
     top: 75%;
-    left: 1.6%;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding: 0 28px 0 26px; 
+    left: 1.6%; 
 }
-
 
 #JRTtext {
-    position: absolute;
-    width: 14.8%;
-    top: 75%;
-    left: 16.9%;
-    background-color: #4aaaa5;
-    text-align: center;
-}
+    position: fixed;
+    top: 53%;
+    left: 29%;
 
-#linac {
+}
+*/
+.linac {
     border-radius: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: auto;
     transform: rotate(90deg);
+    padding: 5px;
 }
-
-#linactext {
+/*
+.linactext {
     position: absolute;
     top: 75%;
     left: 1.6%;
@@ -138,7 +121,7 @@ p {
     padding: 0 44px 0 41px;
 }
 
-  
+ */ 
 footer {
     background: #666666;
     padding: 30px;
@@ -160,6 +143,11 @@ footer {
     font-size: x-small;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  
 
 
 
