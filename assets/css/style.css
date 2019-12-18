@@ -1,157 +1,141 @@
-body {
-    background-image: url("../images/full-bloom-bkgrnd.png");
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-a:any-link {
-    color: #666666;
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-h1 {
-    color: #666666;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
-}
-
-h3 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-.container {
-    position: relative;
-    background: #ffffff;
-    width: 960px;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    padding: 20px;
-    border-style: solid;
-    border-color: #dddddd;
-    border-width: 2px;
-}
-
-#self {
-    width: 210px; 
-    height: 200px;
-    padding: 5px;   
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    font-size: 19px;
-}
-
-.btn {
-    background: #4aaaa5;
-    color: #ffffff;
-}
-
-.btn:hover {
-    background: #777777;
-    color: #ffffff;
-}
-
-.dog {
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
-    padding: 5px;
-}
-
-.patttext {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    padding: 0 29px 0 26px;
-}
-
-.vegas {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transform: rotate(90deg);
-    padding: 5px;
-}
-
-.vegastext {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    padding: 0 43px 0 41px;
-}
-
-
-.olytext {
-    position: absolute;
-    top: 100px;
-    left: 20px; 
-    padding: 0 20px 0 21px;
-}
-
-.JRTtext {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    padding: 0 18px 0 21px; 
-}
-
-.linac {
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
-    transform: rotate(90deg);
-    padding: 5px;
-}
-
-.linactext {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    padding: 0 35px 0 38px;
-}
-
-footer {
-    background: #666666;
-    padding: 30px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    border-top-style: solid;
-    border-width: 8px;
-    border-color: #4aaaa5;
-}
-    
-.copyright {
-    position: fixed;
-    bottom: 5px;
-    right: 50%;
-    text-align: center;
-    color: #ffffff;
-    font-size: x-small;
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-      width: 100%;
+        body {
+        background-image: url("../images/full-bloom-bkgrnd.png");
+        font-family: Arial, Helvetica, sans-serif;
     }
-
-   
-
-
-  
-
-
-
-
-   
-       
-
-
+    
+    a:any-link {
+        color: #666666;
+    }
+    
+    a:hover {
+        color: #ffffff;
+    }
+    
+    h1 {
+        color: #666666;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+    }
+    
+    h3 {
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .container {
+        position: relative;
+        background: #ffffff;
+        width: 960px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+        padding: 20px;
+        border-style: solid;
+        border-color: #dddddd;
+        border-width: 2px;
+    }
+    
+    #self {
+        width: 210px;
+        height: 200px;
+        padding: 5px;
+    }
+    
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777;
+        font-size: 19px;
+    }
+    
+    .btn {
+        background: #4aaaa5;
+        color: #ffffff;
+    }
+    
+    .btn:hover {
+        background: #777777;
+        color: #ffffff;
+    }
+    
+    .dog {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+    
+    .patttext {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        padding: 0 29px 0 26px;
+    }
+    
+    .vegas {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transform: rotate(90deg);
+        padding: 5px;
+    }
+    
+    .vegastext {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        padding: 0 43px 0 41px;
+    }
+    
+    .olytext {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        padding: 0 20px 0 21px;
+    }
+    
+    .JRTtext {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        padding: 0 18px 0 21px;
+    }
+    
+    .linac {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        transform: rotate(90deg);
+        padding: 5px;
+    }
+    
+    .linactext {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        padding: 0 35px 0 38px;
+    }
+    
+    footer {
+        background: #666666;
+        padding: 30px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-width: 8px;
+        border-color: #4aaaa5;
+    }
+    
+    .copyright {
+        position: fixed;
+        bottom: 5px;
+        right: 50%;
+        text-align: center;
+        color: #ffffff;
+        font-size: x-small;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .container {
+            width: 100%;
+        }
